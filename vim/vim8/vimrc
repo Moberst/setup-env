@@ -4,9 +4,12 @@ filetype off
 filetype plugin indent on    
 
 " GENERAL setup
-colorscheme zenburn
-let g:airline_theme='powerlineish'
+syntax enable
+set background=dark
+colorscheme solarized
+" colorscheme zenburn
 " colorscheme molokai
+let g:airline_theme='powerlineish'
 
 set encoding=utf-8
 set nu

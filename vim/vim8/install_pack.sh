@@ -149,13 +149,14 @@ wait
 
 (
 set_group colorschemes start
-package jnurmine/Zenburn  &
+package altercation/vim-colors-solarized &
 wait
 ) &
 
 (
 set_group colorschemes opt
 package tomasr/molokai &
+package jnurmine/Zenburn  &
 wait
 ) &
 
